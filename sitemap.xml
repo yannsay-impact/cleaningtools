@@ -7,6 +7,9 @@
     <loc>https://impact-initiatives.github.io/cleaningtools/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
+    <loc>https://impact-initiatives.github.io/cleaningtools/LICENSE-text.html</loc>
+  </url>
+  <url>
     <loc>https://impact-initiatives.github.io/cleaningtools/LICENSE.html</loc>
   </url>
   <url>
@@ -74,6 +77,9 @@
   </url>
   <url>
     <loc>https://impact-initiatives.github.io/cleaningtools/reference/check_value.html</loc>
+  </url>
+  <url>
+    <loc>https://impact-initiatives.github.io/cleaningtools/reference/cleaningtools-package.html</loc>
   </url>
   <url>
     <loc>https://impact-initiatives.github.io/cleaningtools/reference/cleaningtools_analysis_by_group.html</loc>
