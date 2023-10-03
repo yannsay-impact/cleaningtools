@@ -52,7 +52,7 @@
 <span>  strongness_factor <span class="op">=</span> <span class="fl">3</span>,</span>
 <span>  minimum_unique_value_of_variable <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  remove_choice_multiple <span class="op">=</span> <span class="cn">TRUE</span>,</span>
-<span>  sm_seperator <span class="op">=</span> <span class="st">"."</span>,</span>
+<span>  sm_separator <span class="op">=</span> <span class="st">"."</span>,</span>
 <span>  columns_not_to_check <span class="op">=</span> <span class="cn">NULL</span></span>
 <span><span class="op">)</span></span></code></pre></div>
     </div>
@@ -96,7 +96,7 @@
 <dd><p>TRUE (default) will remove choice multiple questions from the output.</p></dd>
 
 
-<dt>sm_seperator</dt>
+<dt>sm_separator</dt>
 <dd><p>Separator for choice multiple questions. The default is "."</p></dd>
 
 
@@ -129,106 +129,106 @@ the outliers log</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "checking_yy"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $checked_dataset</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>         uuid one_value expense income  yy</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1     uuid_1        54     208     60 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2     uuid_2        48     490      0 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3     uuid_3        45     394     80 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4     uuid_4        47     451   1020 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5     uuid_5        47     385   1050 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6     uuid_6        45     421  42010 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7     uuid_7        51     275  39501 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8     uuid_8        46     365  30908 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9     uuid_9        53     326  29938 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10   uuid_10        54     279  43039 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11   uuid_11        51     363  24111 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12   uuid_12        46     358  30739 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13   uuid_13        50     270  28554 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14   uuid_14        51     207  20023 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15   uuid_15        47     311  21780 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16   uuid_16        55     458  28499 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17   uuid_17        54     485  33384 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18   uuid_18        50     409  23691 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19   uuid_19        52     223  23754 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20   uuid_20        49     418  25018 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 21   uuid_21        55     311  25773 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 22   uuid_22        53     491  42396 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 23   uuid_23        54     339  44740 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 24   uuid_24        52     251  24002 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 25   uuid_25        51     211  39600 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 26   uuid_26        49     393  24195 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 27   uuid_27        54     359  47173 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 28   uuid_28        48     322  32133 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 29   uuid_29        54     482  29436 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 30   uuid_30        52     261  37279 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 31   uuid_31        53     375  48127 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 32   uuid_32        49     376  30255 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 33   uuid_33        45     302  38797 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 34   uuid_34        54     284  31992 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 35   uuid_35        49     399  43237 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 36   uuid_36        54     382  39637 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 37   uuid_37        48     399  43325 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 38   uuid_38        49     452  42035 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 39   uuid_39        54     468  44674 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 40   uuid_40        47     210  36563 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 41   uuid_41        51     275  40457 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 42   uuid_42        51     274  34848 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 43   uuid_43        53     374  29544 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 44   uuid_44        49     398  24108 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 45   uuid_45        54     236  47703 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 46   uuid_46        52     419  27911 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 47   uuid_47        45     225  39782 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 48   uuid_48        50     301  38161 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 49   uuid_49        54     330  44581 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 50   uuid_50        52     366  33611 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 51   uuid_51        47     217  30380 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 52   uuid_52        46     400  36015 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 53   uuid_53        51     281  27715 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 54   uuid_54        54     305  30053 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 55   uuid_55        47     385  34842 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 56   uuid_56        45     217  25380 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 57   uuid_57        47     229  21981 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 58   uuid_58        52     489  23141 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 59   uuid_59        49     402  43064 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 60   uuid_60        48     427  43559 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 61   uuid_61        53     252  45014 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 62   uuid_62        46     224  31763 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 63   uuid_63        51     234  24156 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 64   uuid_64        53     300  20604 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 65   uuid_65        48     295  45450 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 66   uuid_66        49     485  49776 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 67   uuid_67        47     374  23413 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 68   uuid_68        52     259  33078 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 69   uuid_69        47     268  39804 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 70   uuid_70        49     402  30483 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 71   uuid_71        45     268  42444 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 72   uuid_72        48     232  26080 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 73   uuid_73        47     242  41138 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 74   uuid_74        48     232  39720 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 75   uuid_75        46     451  27287 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 76   uuid_76        45     242  47414 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 77   uuid_77        53     281  39359 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 78   uuid_78        54     274  36192 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 79   uuid_79        49     260  44260 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 80   uuid_80        51     296  22759 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 81   uuid_81        48     297  32194 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 82   uuid_82        49     211  30245 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 83   uuid_83        55     369  40435 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 84   uuid_84        55     212  35618 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 85   uuid_85        47     393  34249 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 86   uuid_86        51     379  41525 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 87   uuid_87        55     457  38830 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 88   uuid_88        48     287  21705 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 89   uuid_89        50     272  34039 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 90   uuid_90        46     315  38815 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 91   uuid_91         1     337  45085 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 92   uuid_92         0     398  29961 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 93   uuid_93         1     493  21650 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 94   uuid_94         1     300  36368 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 95   uuid_95         1     460  35837 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 96   uuid_96       100     600  46773 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 97   uuid_97        99     100  41866 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 98   uuid_98        99      80  27927 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 99   uuid_99        99    1020  23358 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 100 uuid_100       100    1050  30346  10</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1     uuid_1        46     212     60 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2     uuid_2        48     384      0 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3     uuid_3        47     407     80 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4     uuid_4        48     469   1020 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5     uuid_5        51     238   1050 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6     uuid_6        47     385  32276 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7     uuid_7        55     215  46287 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8     uuid_8        53     230  31797 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9     uuid_9        46     386  40249 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10   uuid_10        52     469  26447 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11   uuid_11        53     434  34260 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12   uuid_12        50     324  46649 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13   uuid_13        54     486  47931 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14   uuid_14        52     456  49936 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15   uuid_15        55     252  33353 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16   uuid_16        48     284  20070 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17   uuid_17        51     411  26348 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18   uuid_18        48     229  48989 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19   uuid_19        49     377  36744 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20   uuid_20        47     412  49944 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 21   uuid_21        55     416  41775 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 22   uuid_22        49     201  34981 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 23   uuid_23        49     350  48149 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 24   uuid_24        52     275  31617 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 25   uuid_25        51     280  35160 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 26   uuid_26        54     280  47355 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 27   uuid_27        54     211  30348 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 28   uuid_28        46     324  33409 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 29   uuid_29        52     420  43316 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 30   uuid_30        45     340  27674 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 31   uuid_31        50     298  24670 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 32   uuid_32        55     476  39278 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 33   uuid_33        54     396  48112 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 34   uuid_34        48     304  33079 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 35   uuid_35        54     274  21374 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 36   uuid_36        53     500  20490 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 37   uuid_37        51     477  35246 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 38   uuid_38        51     492  45714 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 39   uuid_39        52     398  29215 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 40   uuid_40        49     455  20173 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 41   uuid_41        51     327  40942 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 42   uuid_42        54     495  23722 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 43   uuid_43        51     228  46754 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 44   uuid_44        54     309  25700 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 45   uuid_45        53     276  46578 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 46   uuid_46        51     430  25198 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 47   uuid_47        47     391  39097 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 48   uuid_48        49     286  37436 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 49   uuid_49        49     261  31229 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 50   uuid_50        52     249  46757 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 51   uuid_51        54     370  27342 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 52   uuid_52        54     325  49387 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 53   uuid_53        45     209  36718 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 54   uuid_54        52     372  44819 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 55   uuid_55        48     301  40387 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 56   uuid_56        48     494  36870 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 57   uuid_57        47     337  24636 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 58   uuid_58        50     210  23674 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 59   uuid_59        54     328  49929 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 60   uuid_60        47     442  25555 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 61   uuid_61        48     229  33583 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 62   uuid_62        55     282  33631 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 63   uuid_63        48     273  34612 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 64   uuid_64        52     291  32957 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 65   uuid_65        50     201  46131 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 66   uuid_66        53     236  45459 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 67   uuid_67        48     367  33800 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 68   uuid_68        48     245  36984 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 69   uuid_69        50     497  25940 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 70   uuid_70        54     441  41860 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 71   uuid_71        53     400  39238 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 72   uuid_72        53     473  37080 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 73   uuid_73        46     297  41120 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 74   uuid_74        51     347  24012 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 75   uuid_75        55     290  32181 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 76   uuid_76        54     465  43416 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 77   uuid_77        49     322  33824 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 78   uuid_78        50     307  39921 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 79   uuid_79        51     205  33400 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 80   uuid_80        48     334  39623 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 81   uuid_81        53     478  49174 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 82   uuid_82        47     301  45773 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 83   uuid_83        47     390  36122 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 84   uuid_84        51     220  44801 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 85   uuid_85        47     419  45365 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 86   uuid_86        46     335  38585 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 87   uuid_87        52     418  27284 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 88   uuid_88        54     304  21978 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 89   uuid_89        51     298  25261 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 90   uuid_90        55     239  28145 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 91   uuid_91         1     288  30162 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 92   uuid_92         0     262  26046 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 93   uuid_93         0     332  28389 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 94   uuid_94         0     388  26167 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 95   uuid_95         1     424  41240 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 96   uuid_96        99     600  36594 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 97   uuid_97        99     100  27883 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 98   uuid_98       100      80  42443 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 99   uuid_99       100    1020  44642 100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 100 uuid_100       100    1050  46624  10</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $potential_outliers</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 18 × 4</span></span>
@@ -236,21 +236,21 @@ the outliers log</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> uuid_91  outlier (normal distribution) one_value         1</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> uuid_92  outlier (normal distribution) one_value         0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> uuid_93  outlier (normal distribution) one_value         1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> uuid_94  outlier (normal distribution) one_value         1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> uuid_93  outlier (normal distribution) one_value         0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> uuid_94  outlier (normal distribution) one_value         0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> uuid_95  outlier (normal distribution) one_value         1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> uuid_96  outlier (normal distribution) one_value       100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> uuid_96  outlier (normal distribution) one_value        99</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> uuid_97  outlier (normal distribution) one_value        99</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> uuid_98  outlier (normal distribution) one_value        99</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> uuid_99  outlier (normal distribution) one_value        99</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> uuid_98  outlier (normal distribution) one_value       100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> uuid_99  outlier (normal distribution) one_value       100</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> uuid_100 outlier (normal distribution) one_value       100</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">11</span> uuid_99  outlier (normal distribution) expense        <span style="text-decoration: underline;">1</span>020</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">12</span> uuid_100 outlier (normal distribution) expense        <span style="text-decoration: underline;">1</span>050</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">13</span> uuid_97  outlier (log distribution)    expense         100</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">14</span> uuid_98  outlier (log distribution)    expense          80</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">15</span> uuid_1   outlier (normal distribution) income           60</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">16</span> uuid_2   outlier (normal distribution) income            0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">17</span> uuid_3   outlier (normal distribution) income           80</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">15</span> uuid_1   outlier (log distribution)    income           60</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">16</span> uuid_2   outlier (log distribution)    income            0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">17</span> uuid_3   outlier (log distribution)    income           80</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">18</span> uuid_100 outlier (normal distribution) yy               10</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 </code></pre></div>
